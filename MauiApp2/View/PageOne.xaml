@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.View.PageOne"
+             Title="PageOne">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Goto Page 2"  CornerRadius="20"   BackgroundColor="Beige" TextColor="Black"  BorderColor="Black" BorderWidth="1" HorizontalOptions="Start" VerticalOptions="Start"
+        Clicked="btn2_Clicked"
+       Margin="2"
+       Padding="15,0,15,0"
+       x:Name="btn2"></Button>
+    </VerticalStackLayout>
+    
+</ContentPage>
